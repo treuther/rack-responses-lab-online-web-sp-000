@@ -3,7 +3,7 @@
 # Remember that getting the time may return results in 24 hour time!
 # Anytime after 12 is the afternoon.
 
-class application
+class Application
 
   def call(env)
     if time.now > 12
