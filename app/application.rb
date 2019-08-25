@@ -7,6 +7,7 @@ class application
 
   def call(env)
 
+    resp.finish
   end
 
 end
