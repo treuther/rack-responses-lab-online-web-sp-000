@@ -6,6 +6,10 @@
 class application
 
   def call(env)
+    if time.now > 12
+      resp.write "Good Morning!"
+    else
+      resp.write "Good Afternoon!"
 
     resp.finish
   end
